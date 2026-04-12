@@ -1,6 +1,5 @@
 #!/bin/bash
 #SBATCH --job-name=hw4-pthread
-#SBATCH --partition=batch
 #SBATCH --constraint=moles
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
