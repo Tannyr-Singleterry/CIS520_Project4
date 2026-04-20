@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=hw4_pthread_perf
-#SBATCH --constraint=mole
+#SBATCH --constraint=moles
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
@@ -10,15 +10,15 @@
 #SBATCH --error=perf_pthread_%j.err
  
 # Environment
-module load CMake/3.23.1-GCCcore-11.3.0 foss/2022a
+#module load CMake/3.23.1-GCCcore-11.3.0 foss/2022a
  
 INPUT=~eyv/cis520/wiki_dump.txt
-BIN=./3way-pthread/hw4-pthread
+BIN=./hw4-pthread
 CSV=perf_data_pthread_${SLURM_JOB_ID}.csv
  
 # Compile
 echo "Compiling..."
-make -C 3way-pthread
+make 
 echo "Binary: $(ls -lh $BIN)"
 echo "Node: $(hostname)"
 echo "Cores available: $SLURM_CPUS_ON_NODE"

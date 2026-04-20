@@ -1,0 +1,666 @@
+Compiling...
+Binary: 
+Node: mole007
+Cores available: 20
+Linux mole007 5.14.0-570.22.1.el9_6.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Jun 18 17:59:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+--- threads=1 mem=64MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=64MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=64MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=128MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=128MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=128MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=512MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=512MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=512MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=1024MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=1024MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=1024MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=1536MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=1536MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=1536MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=3072MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=3072MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=1 mem=3072MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=64MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=64MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=64MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=128MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=128MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=128MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=512MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=512MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=512MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=1024MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=1024MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=1024MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=1536MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=1536MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=1536MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=3072MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=3072MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=2 mem=3072MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=64MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=64MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=64MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=128MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=128MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=128MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=512MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=512MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=512MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=1024MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=1024MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=1024MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=1536MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=1536MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=1536MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=3072MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=3072MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=4 mem=3072MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=64MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=64MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=64MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=128MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=128MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=128MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=512MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=512MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=512MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=1024MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=1024MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=1024MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=1536MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=1536MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=1536MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=3072MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=3072MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=8 mem=3072MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=64MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=64MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=64MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=128MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=128MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=128MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=512MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=512MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=512MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=1024MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=1024MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=1024MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=1536MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=1536MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=1536MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=3072MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=3072MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=16 mem=3072MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=64MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=64MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=64MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=128MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=128MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=128MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=512MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=512MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=512MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=1024MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=1024MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=1024MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=1536MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=1536MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=1536MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=3072MB trial=1 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=3072MB trial=2 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+--- threads=20 mem=3072MB trial=3 ---
+  -> wall=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00s mem=/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640KB exit=127
+
+Job Finished. Results in perf_data_pthread_7772125.csv
+First few rows:
+threads,mem_budget_mb,wall_time_s,user_time_s,sys_time_s,mem_used_kb,exit_code,trial
+1,64,/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00,/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00,/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+0.00,/usr/bin/time: cannot run ./3way-pthread/hw4-pthread: No such file or directory
+Command exited with non-zero status 127
+640,127,1
