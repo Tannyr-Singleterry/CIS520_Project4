@@ -3,9 +3,9 @@ The software architecture for the pthreads approach to this project starts with 
 
 ## pthread performance analysis
 ### Charts
-![Thread count used and how it relates to time spent](<design4Charts/perf_data_pthread_thread_count.pdf>)
+[Thread count used and how it relates to time spent](<design4Charts/perf_data_pthread_thread_count.pdf>)
 
-![Memory allowed and how it relates to time spent](<design4Charts/perf_data_pthread_memory.pdf>)
+[Memory allowed and how it relates to time spent](<design4Charts/perf_data_pthread_memory.pdf)
 ### Analysis
 Based on the data we can see that 1 thread took the absolute longest while 4 threads took the least amount of total time on average. With using more threads the expected outcome should be that as you increase threads the time it takes to process data goes down. However this is not the case. It suggests that there is some unaccounted for overhead that comes with creating and managing these threads.
 
