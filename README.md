@@ -3,7 +3,7 @@ ___
 
 After logging into and transfering the files to beocat go into the project directory
 
-```CIS520_Project4```
+```cd CIS520_Project4```
 
 Then, go into the pthread directory with
 
