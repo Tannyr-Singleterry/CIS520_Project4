@@ -17,7 +17,8 @@ After that the job will be scheduled and you can watch the output live with
 
 ```tail -f perf_pthread_<job_id>.out```
 
-The final output will be in perf_pthread_<job_id>.out, and the raw data in perf_data_pthread_<job_id>.csv, and any errors in perf_pthread_<job_id>.err
+The final output will be in ```perf_pthread_<job_id>.out```, and the raw data in ```perf_data_pthread_<job_id>.csv```, and any errors in ```perf_pthread_<job_id>.err```
+
 
 
 Next to schedule and run the mpi implementation we follow a similar process
@@ -38,7 +39,8 @@ After that the job will be scheduled and you can watch the output live with
 
 ```tail -f perf_mpi_<job_id>.out```
 
-The final output will be in perf_mpi_<job_id>.out, and the raw data in perf_data_mpi_<job_id>.csv, and any errors in perf_mpi_<job_id>.err
+The final output will be in ```perf_mpi_<job_id>.out```, and the raw data in ```perf_data_mpi_<job_id>.csv```, and any errors in ```perf_mpi_<job_id>.err```
+
 
 
 Next to schedule and run the openMP implementation we follow a similar process
@@ -59,4 +61,4 @@ After that the job will be scheduled and you can watch the output live with
 
 ```tail -f perf_openmp_<job_id>.out```
 
-The final output will be in perf_openmp_<job_id>.out, and the raw data in perf_data_openmp_<job_id>.csv, and any errors in perf_openmp_<job_id>.err
+The final output will be in ```perf_openmp_<job_id>.out```, and the raw data in ```perf_data_openmp_<job_id>.csv```, and any errors in ```perf_openmp_<job_id>.err```
