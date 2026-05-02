@@ -10,7 +10,7 @@
 #SBATCH --error=perf_pthread_%j.err
  
 # Environment
-#module load CMake/3.23.1-GCCcore-11.3.0 foss/2022a
+module load CMake/3.23.1-GCCcore-11.3.0 foss/2022a
  
 INPUT=~eyv/cis520/wiki_dump.txt
 BIN=./hw4-pthread
@@ -18,7 +18,7 @@ CSV=perf_data_pthread_${SLURM_JOB_ID}.csv
  
 # Compile
 echo "Compiling..."
-make 
+make hw4-pthread
 echo "Binary: $(ls -lh $BIN)"
 echo "Node: $(hostname)"
 echo "Cores available: $SLURM_CPUS_ON_NODE"
