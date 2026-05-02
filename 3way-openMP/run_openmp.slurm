@@ -1,44 +1,46 @@
 #!/bin/bash
-#SBATCH --job-name=hw4_mpi_perf
+#SBATCH --job-name=hw4_openmp_perf
 #SBATCH --constraint=moles
 #SBATCH --nodes=1
-#SBATCH --ntasks=20
-#SBATCH --cpus-per-task=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
 #SBATCH --mem-per-cpu=512M
 #SBATCH --time=08:00:00
-#SBATCH --output=perf_mpi_%j.out
-#SBATCH --error=perf_mpi_%j.err
+#SBATCH --output=perf_openmp_%j.out
+#SBATCH --error=perf_openmp_%j.err
 
 # Environment
 module purge
-module load OpenMPI/4.1.4-GCC-11.3.0
+module load GCC/11.3.0
 
 INPUT=~eyv/cis520/wiki_dump.txt
-BIN=./3way-mpi
-CSV=perf_data_mpi_${SLURM_JOB_ID}.csv
+BIN=./hw4-openmp
+CSV=perf_data_openmp_${SLURM_JOB_ID}.csv
 
 # Compile
 echo "Compiling..."
 make
 echo "Binary: $(ls -lh $BIN)"
 echo "Node: $(hostname)"
-echo "Tasks available: $SLURM_NTASKS"
+echo "CPUs available: $SLURM_CPUS_PER_TASK"
 uname -a
 
 # CSV Header
-echo "procs,nodes,mem_budget_mb,wall_time_s,user_time_s,sys_time_s,mem_used_kb,exit_code,trial" > $CSV
-
+echo "threads,nodes,mem_budget_mb,wall_time_s,user_time_s,sys_time_s,mem_used_kb,exit_code,trial" > $CSV
 
 echo "Testing input path"
 ls -l $INPUT || { echo "INPUT FILE NOT FOUND"; exit 1; }
+
 # Run experiments
-for PROCS in 1 2 4 8 16 20; do
+for THREADS in 1 2 4 8 16 20; do
   for MEM in 64 128 512 1024 1536 3072; do
     for TRIAL in 1 2 3; do
-      echo "--- procs=$PROCS mem=${MEM}MB trial=$TRIAL ---"
+      echo "--- threads=$THREADS mem=${MEM}MB trial=$TRIAL ---"
+
+      export OMP_NUM_THREADS=$THREADS
 
       /usr/bin/time -f "%e,%U,%S,%M" \
-        mpirun -np $PROCS $BIN $INPUT > /dev/null \
+        $BIN $INPUT $THREADS > /dev/null \
         2>/tmp/hw4_time_$$.txt
       EXIT_CODE=$?
 
@@ -48,7 +50,7 @@ for PROCS in 1 2 4 8 16 20; do
       SYS=$(echo  "$TIME_LINE" | cut -d',' -f3)
       MEMKB=$(echo "$TIME_LINE" | cut -d',' -f4)
 
-      echo "$PROCS,$SLURM_NNODES,$MEM,$WALL,$USR,$SYS,$MEMKB,$EXIT_CODE,$TRIAL" >> $CSV
+      echo "$THREADS,$SLURM_NNODES,$MEM,$WALL,$USR,$SYS,$MEMKB,$EXIT_CODE,$TRIAL" >> $CSV
       echo "  -> wall=${WALL}s mem=${MEMKB}KB exit=$EXIT_CODE"
     done
   done
