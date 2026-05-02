@@ -1,6 +1,6 @@
 CC = mpicc
 CFLAGS = -O2 -Wall -Wextra -Werror -std=gnu11
-TARGET = 3way-mpi
+TARGET = hw4-mpi
 
 all: $(TARGET)
 

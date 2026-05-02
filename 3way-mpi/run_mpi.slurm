@@ -14,7 +14,7 @@ module purge
 module load OpenMPI/4.1.4-GCC-11.3.0
 
 INPUT=~eyv/cis520/wiki_dump.txt
-BIN=./3way-mpi
+BIN=./hw4-mpi
 CSV=perf_data_mpi_${SLURM_JOB_ID}.csv
 
 # Compile
